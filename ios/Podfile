@@ -1,14 +1,17 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '13.0'  # Change this to the desired minimum iOS version
+# platform :ios, '9.0'
 
-# CocoaPods analytics sends network stats synchronously affecting flutter build latency.
-# Disable these analytics by passing `--no-analytics` to `pod install`.
-# You can also set the environment variable `COCOAPODS_DISABLE_STATS` to `true`.
-ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+# CocoaPods analytics sends network statistics synchronously affecting flutter build times.
+# To disable this, add this line to your Podfile:
+# ENV['COCOAPODS_DISABLE_STATS'] = 'true'
 
-# Ensure Flutter dependencies are loaded
-use_frameworks!
+# Add the Firebase pod for Crashlytics
+# pod 'Firebase/Crashlytics'
 
 target 'Runner' do
+  use_frameworks!
+  use_modular_headers!
+
+  # Ensure Flutter dependencies are loaded
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
 end
