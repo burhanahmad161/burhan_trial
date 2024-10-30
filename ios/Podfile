@@ -1,19 +1,14 @@
 # Uncomment the next line to define a global platform for your project
- platform :ios, '13.0'
+platform :ios, '13.0'  # Change this to the desired minimum iOS version
 
-# CocoaPods analytics sends network stats synchronously affecting performance.
-# To disable this, add the following line to your `Podfile`:
-# ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+# CocoaPods analytics sends network stats synchronously affecting flutter build latency.
+# Disable these analytics by passing `--no-analytics` to `pod install`.
+# You can also set the environment variable `COCOAPODS_DISABLE_STATS` to `true`.
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
 
-# The name of the target is typically your project name
+# Ensure Flutter dependencies are loaded
+use_frameworks!
+
 target 'Runner' do
-  # Comment the next line if you're not using Swift
-  use_frameworks!
-
-  # Pods for Runner
-  # Add your pods here, e.g.:
-  # pod 'Firebase/Analytics'
-
-  # Ensure Flutter dependencies are loaded
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
 end
