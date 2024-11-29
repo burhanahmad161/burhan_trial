@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "877664373675",
+    "project_id": "sample-firebase-b6e7d",
+    "storage_bucket": "sample-firebase-b6e7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877664373675:android:3cf1ba8d93c25cde47a0ee",
+        "android_client_info": {
+          "package_name": "com.example.burhan_trial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnQ5LJwEtQBmNqiQUVUMChWkOS4J1A44E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

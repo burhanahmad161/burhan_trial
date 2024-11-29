@@ -1,0 +1,1 @@
+ E:\\burhan_trial\\.dart_tool\\flutter_build\\1d04711b27070cbf7cd0dbff08002dcf\\native_assets.yaml: 
